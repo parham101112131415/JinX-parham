@@ -1,4 +1,4 @@
-# JinX X4G - generated at boot by /opt/jinx/render.py. Do not edit here.
+# Parham PM - generated at boot by /opt/jinx/render.py. Do not edit here.
 user root;
 worker_processes @@WPROC@@;
 worker_rlimit_nofile 65535;

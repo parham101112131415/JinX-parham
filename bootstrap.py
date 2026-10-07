@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""JinX X4G first-stage init: prepare DB, settings, locked inbound and nginx config.
+"""Parham PM first-stage init: prepare DB, settings, locked inbound and nginx config.
 Runs before every start. Idempotent: safe to run any number of times."""
 import os, sys, secrets, string, subprocess, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -82,7 +82,7 @@ def main():
     url = ("https://%s%s" % (dom, base)) if dom else ("https://<your-railway-domain>%s" % base)
     bar = "=" * 60
     log(bar)
-    log("JinX X4G is ready")
+    log("Parham PM is ready")
     log("Panel   :", url)
     log("Login   : admin / admin  (default; change it after first login)")
     log("Region  :", region() or "unknown", "| turbo:", "ON" if fast else "off")

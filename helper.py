@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""JinX helper: health endpoint for Railway, QR images for the sub page, domain discovery."""
+"""Parham helper: health endpoint for Railway, QR images for the sub page, domain discovery."""
 import os, sys, io, re, json, threading
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
@@ -140,7 +140,7 @@ class H(BaseHTTPRequestHandler):
                     ("panel files", panel_assets_ok(st) is not False),
                     ("redirect", redirect_ok(st)),
                 ]
-                lines = ["JinX X4G status"] + ["%-13s %s" % (k, "OK" if v else "FAIL") for k, v in rows]
+                lines = ["Parham PM status"] + ["%-13s %s" % (k, "OK" if v else "FAIL") for k, v in rows]
                 sp = __import__("speed").last()
                 def _ms(v):
                     return ("%s ms" % v) if v is not None else "FAIL"

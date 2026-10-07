@@ -1,4 +1,4 @@
-"""JinX X4G shared helpers (paths, logging, sqlite, service control)."""
+"""Parham PM shared helpers (paths, logging, sqlite, service control)."""
 import os, sys, time, json, sqlite3, subprocess, socket, shutil, glob
 
 DB_DIR = os.environ.get("XUI_DB_FOLDER", "/etc/x-ui")
@@ -14,11 +14,11 @@ SUB_PORT = 2096
 WS_PORT = 10000
 HELPER_PORT = 9100
 PUBLIC_PORT = int(os.environ.get("PORT_INTERNAL", "8080"))
-INBOUND_REMARK = "\U0001d5dd\U0001d5f6\U0001d5fb\U0001d5eb \u26a1 \U0001d5eb\U0001d7f0\U0001d5da"   # bold "JinX" + lightning + bold "X4G"
-OLD_REMARKS = ("\U0001d5dd\U0001d5f6\U0001d5fb\U0001d5eb X4G",)   # earlier names, recognised and renamed automatically
+INBOUND_REMARK = "Parham \u26a1 PM"   # inbound name, shown in panel
+OLD_REMARKS = ("\U0001d5dd\U0001d5f6\U0001d5fb\U0001d5eb \u26a1 \U0001d5eb\U0001d7f0\U0001d5da", "\U0001d5dd\U0001d5f6\U0001d5fb\U0001d5eb PM", "Parham PM", "Parham-PM")   # earlier names, recognised and renamed automatically
 INBOUND_TAG = "inbound-127.0.0.1:%d" % WS_PORT
-SUPPORT_URL = "https://t.me/Super_Jinx"
-ANNOUNCE = "ارائه شده توسط جینکس • با حمایت آقای ایکس فورجی"
+SUPPORT_URL = "https://t.me/par1234mehr"
+ANNOUNCE = "ارائه شده توسط پرهام • با حمایت آقای مهسا"
 
 
 def log(*a):

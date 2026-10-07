@@ -1,4 +1,4 @@
-"""Definition + enforcement of the locked inbound 'JinX X4G' (VLESS + WS, TLS at Railway edge)."""
+"""Definition + enforcement of the locked inbound 'Parham PM' (VLESS + WS, TLS at Railway edge)."""
 import json, time
 from common import *
 

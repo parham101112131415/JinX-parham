@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="header.svg" alt="JinX X4G" width="100%">
+<img src="header.svg" alt="Parham PM" width="100%">
 
 <br>
 
-<a href="https://t.me/Super_Jinx"><img src="https://img.shields.io/badge/Telegram-@Super__Jinx-ee3a3a?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0b0b0f" alt="Telegram"></a>
+<a href="https://t.me/par1234mehr"><img src="https://img.shields.io/badge/Telegram-@par1234mehr-ee3a3a?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0b0b0f" alt="Telegram"></a>
 <a href="https://railway.com"><img src="https://img.shields.io/badge/Railway-One%20Click-ee3a3a?style=for-the-badge&logo=railway&logoColor=white&labelColor=0b0b0f" alt="Railway"></a>
 <a href="https://github.com/MHSanaei/3x-ui/releases/tag/v2.9.4"><img src="https://img.shields.io/badge/3X--UI-v2.9.4-ef4444?style=for-the-badge&labelColor=0b0b0f" alt="3X-UI"></a>
 <a href="https://github.com/XTLS/Xray-core"><img src="https://img.shields.io/badge/Xray-VLESS%20%C2%B7%20WS%20%C2%B7%20TLS-dc2626?style=for-the-badge&labelColor=0b0b0f" alt="Xray"></a>
@@ -16,7 +16,7 @@
 
 <br><br>
 
-<img src="collab.svg" alt="همکاری با ایکس فورجی" width="100%">
+<img src="collab.svg" alt="همکاری با مهسا" width="100%">
 
 </div>
 
@@ -24,9 +24,9 @@
 
 <img src="divider.svg" width="100%">
 
-## 𝗝𝗶𝗻𝗫 𝗫𝟰𝗚 چیست؟
+## Parham PM چیست؟
 
-**𝗝𝗶𝗻𝗫 𝗫𝟰𝗚** نسخه‌ی اختصاصی پنل محبوب **3X-UI** است که از صفر برای **Railway** ساخته شده؛ حاصل **همکاری رسمی جینکس و آقای ایکس فورجی**.
+**Parham PM** نسخه‌ی اختصاصی پنل محبوب **3X-UI** است که از صفر برای **Railway** ساخته شده؛ حاصل **همکاری رسمی پرهام و آقای مهسا**.
 
 فقط فایل‌ها را در گیت‌هاب بگذار و دیپلوی را بزن. پنل، کانفیگ قفل‌شده، ساب‌لینک اختصاصی و **۱۴ ربات نگهبان** خودشان آماده می‌شوند. نه دستوری لازم است، نه سروری، نه تنظیم دستی.
 
@@ -35,14 +35,14 @@
 <img src="divider.svg" width="100%">
 
 <div align="center">
-<img src="features.svg" alt="ویژگی‌های JinX X4G" width="100%">
+<img src="features.svg" alt="ویژگی‌های Parham PM" width="100%">
 </div>
 
 <img src="divider.svg" width="100%">
 
 ## ساب‌لینکی که کاربر عاشقش می‌شود
 
-صفحه‌ی اشتراک اختصاصی با طراحی همکاری جینکس و ایکس فورجی؛ بدون هیچ تنظیمی، از همان لحظه‌ی اول روی پنل فعال است.
+صفحه‌ی اشتراک اختصاصی با طراحی همکاری پرهام و مهسا؛ بدون هیچ تنظیمی، از همان لحظه‌ی اول روی پنل فعال است.
 
 <div align="center">
 <img src="preview-sub.png" alt="پیش‌نمایش ساب‌لینک در حالت روشن و تیره" width="88%">
@@ -245,11 +245,11 @@
 
 <div align="center">
 
-<a href="https://t.me/Super_Jinx"><img src="telegram.svg" alt="کانال رسمی جینکس" width="100%"></a>
+<a href="https://t.me/par1234mehr"><img src="telegram.svg" alt="کانال رسمی پرهام" width="100%"></a>
 
 <br><br>
 
-<img src="footer.svg" alt="JinX X4G" width="100%">
+<img src="footer.svg" alt="Parham PM" width="100%">
 
 <sub>بر پایه‌ی <a href="https://github.com/MHSanaei/3x-ui">3X-UI</a> و <a href="https://github.com/XTLS/Xray-core">Xray-core</a> · منتشر شده با مجوز GPL-3.0</sub>
 

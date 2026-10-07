@@ -1,4 +1,4 @@
-"""JinX link tuner: makes every config in the subscription faster and steadier on all carriers.
+"""Parham link tuner: makes every config in the subscription faster and steadier on all carriers.
 
 Applied to VLESS / Trojan links over WebSocket only, and only adds what is missing:
   fp=chrome      real Chrome TLS fingerprint (Iranian DPI throttles the default Go fingerprint)

@@ -1,6 +1,6 @@
 # ============================================================
-#  JinX X4G  |  3X-UI v2.9.4 for Railway
-#  In partnership with X4G
+#  Parham PM  |  3X-UI v2.9.4 for Railway
+#  In partnership with PM
 # ============================================================
 FROM ghcr.io/mhsanaei/3x-ui:v2.9.4
 
@@ -36,7 +36,7 @@ RUN set -eux; \
     ln -sf /usr/share/zoneinfo/Asia/Tehran /etc/localtime; echo "Asia/Tehran" > /etc/timezone; \
     test -x /app/x-ui
 
-# 2) JinX files (everything sits next to this Dockerfile)
+# 2) Parham files (everything sits next to this Dockerfile)
 COPY *.py init.sh nginx.conf.tpl sub.html jx-check.html lock.js /opt/jinx/
 
 # 3) services: init -> x-ui, nginx, helper -> guardian (built here, nothing else to upload)

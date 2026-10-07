@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""JinX guardian: watches every part of the panel and repairs it automatically.
+"""Parham guardian: watches every part of the panel and repairs it automatically.
 
 checks (each independent, each with its own failure counter):
   panel   - panel HTTP port answers           -> restart x-ui

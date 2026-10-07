@@ -9205,6 +9205,20 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;bac
 .px-spark{position:absolute;width:6px;height:6px;border-radius:9999px;pointer-events:none;z-index:6;background:radial-gradient(circle,#fff 0%,rgba(255,120,80,.95) 40%,rgba(239,68,68,0) 70%);animation:px-spark .55s cubic-bezier(.1,.7,.3,1) forwards}
 @keyframes px-spark{from{transform:translate(-50%,-50%) scale(1);opacity:1}to{transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(.15);opacity:0}}
 .px-mute{position:fixed;right:12px;bottom:12px;z-index:99999;padding:.4rem .55rem;font-size:1.05rem;line-height:1;border:1px solid #7f1d1d;border-radius:999px;cursor:pointer;background:rgba(20,4,4,.75);color:#fca5a5;box-shadow:0 0 12px rgba(239,68,68,.35)}
+.px-needs-ripple{position:relative;overflow:hidden}
+[role='dialog'][data-state='open'],[role='alertdialog'][data-state='open']{animation:px-pop .28s cubic-bezier(.2,.9,.3,1.35)}
+@keyframes px-pop{from{transform:scale(.9);opacity:.5}to{transform:scale(1);opacity:1}}
+.px-in{animation:px-in .6s cubic-bezier(.2,.7,.3,1) both}
+@keyframes px-in{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+svg.lucide-chevron-down{transition:transform .35s ease}
+[data-state='open'] svg.lucide-chevron-down{transform:rotate(180deg)}
+*::-webkit-scrollbar{width:10px;height:10px}
+*::-webkit-scrollbar-track{background:rgba(10,2,2,.6)}
+*::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#7f1d1d,#450a0a);border-radius:8px;border:2px solid rgba(10,2,2,.6)}
+*::-webkit-scrollbar-thumb:hover{background:linear-gradient(180deg,#ef4444,#7f1d1d);box-shadow:0 0 10px rgba(239,68,68,.5)}
+.subscription-card:hover{border-color:rgba(239,68,68,.45)!important;box-shadow:0 0 24px rgba(239,68,68,.14),0 8px 32px rgba(0,0,0,.35)!important;transition:border-color .25s ease,box-shadow .25s ease}
+.px-logo-glow{border-radius:9999px;box-shadow:0 0 18px rgba(239,68,68,.45),0 0 46px rgba(239,68,68,.2);animation:px-logo-breathe 3.2s ease-in-out infinite}
+@keyframes px-logo-breathe{0%,100%{box-shadow:0 0 14px rgba(239,68,68,.35),0 0 34px rgba(239,68,68,.15)}50%{box-shadow:0 0 26px rgba(239,68,68,.65),0 0 60px rgba(239,68,68,.3)}}
 @media (prefers-reduced-motion:reduce){body::before,.px-ripple{animation:none!important}.px-ripple,.px-spark,#px-bubbles{display:none!important}}
 </style>
 
@@ -9432,7 +9446,8 @@ mu.addEventListener('click',function(e){e.stopPropagation();var on=!isSoundOn();
 document.body.appendChild(mu);
 function ci(x){if(!(x instanceof Element)||!x.closest)return null;
 return x.closest('button,a,[role="button"],[role="tab"],summary,input[type="checkbox"],input[type="radio"],select')}
-function rp(el,x,y){var r=el.getBoundingClientRect(),s=Math.max(r.width,r.height)*1.2;
+function ers(el){if(el instanceof HTMLElement&&!el.classList.contains('px-needs-ripple'))el.classList.add('px-needs-ripple')}
+function rp(el,x,y){ers(el);var r=el.getBoundingClientRect(),s=Math.max(r.width,r.height)*1.2;
 for(var i=0;i<2;i++){var sp=document.createElement('span');sp.className='px-ripple'+(i?' px-r2':'');
 sp.style.width=sp.style.height=s+'px';sp.style.left=(x-s/2)+'px';sp.style.top=(y-s/2)+'px';el.appendChild(sp);
 sp.addEventListener('animationend',function(){this.remove()},{once:true})}

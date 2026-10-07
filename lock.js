@@ -11,7 +11,7 @@
     i.className = 'anticon jx-lock';
     i.setAttribute('aria-label', 'icon: lock');
     i.title = TIP[lang()] || TIP.en;
-    i.style.cssText = 'margin-inline-start:6px;color:#008771;vertical-align:-0.125em;font-size:14px';
+    i.style.cssText = 'margin-inline-start:6px;color:#ee3a3a;vertical-align:-0.125em;font-size:14px';
     i.innerHTML = '<svg viewBox="64 64 896 896" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="' + P + '"></path></svg>';
     return i;
   }

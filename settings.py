@@ -17,7 +17,7 @@ def wanted(base, dom):
 SOFT = {  # only set when empty, so the admin can still change them
     "subTitle": INBOUND_REMARK, "subUpdates": "12", "subEncrypt": "true", "subShowInfo": "true",
     "subSupportUrl": SUPPORT_URL, "subProfileUrl": SUPPORT_URL, "subAnnounce": ANNOUNCE,
-    "remarkModel": "-i", "tgBotEnable": "false",
+    "remarkModel": "-e", "tgBotEnable": "false",
 }
 
 
@@ -32,8 +32,8 @@ def ensure(c, base, dom):
     # one-time upgrade of values that were our own earlier defaults (admin choices stay untouched)
     if get_setting(c, "subTitle") in OLD_REMARKS:
         set_setting(c, "subTitle", INBOUND_REMARK)
-    if get_setting(c, "remarkModel") == "-ieo":
-        set_setting(c, "remarkModel", "-i")      # config name = exactly the inbound name
+    if get_setting(c, "remarkModel") in ("-ieo", "-i"):
+        set_setting(c, "remarkModel", "-e")      # config name = exactly the client email set in panel
         changed.append("remarkModel")
     if changed:
         log("settings enforced:", ", ".join(changed))

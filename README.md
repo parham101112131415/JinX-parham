@@ -4,11 +4,11 @@
 
 <br>
 
-<a href="https://t.me/Super_Jinx"><img src="https://img.shields.io/badge/Telegram-@Super__Jinx-229ED9?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0b1f3a" alt="Telegram"></a>
-<a href="https://railway.com"><img src="https://img.shields.io/badge/Railway-One%20Click-0fbf9f?style=for-the-badge&logo=railway&logoColor=white&labelColor=0b1f3a" alt="Railway"></a>
-<a href="https://github.com/MHSanaei/3x-ui/releases/tag/v2.9.4"><img src="https://img.shields.io/badge/3X--UI-v2.9.4-00a389?style=for-the-badge&labelColor=0b1f3a" alt="3X-UI"></a>
-<a href="https://github.com/XTLS/Xray-core"><img src="https://img.shields.io/badge/Xray-VLESS%20%C2%B7%20WS%20%C2%B7%20TLS-7c3aed?style=for-the-badge&labelColor=0b1f3a" alt="Xray"></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-ffc53d?style=for-the-badge&labelColor=0b1f3a" alt="License"></a>
+<a href="https://t.me/Super_Jinx"><img src="https://img.shields.io/badge/Telegram-@Super__Jinx-ee3a3a?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0b0b0f" alt="Telegram"></a>
+<a href="https://railway.com"><img src="https://img.shields.io/badge/Railway-One%20Click-ee3a3a?style=for-the-badge&logo=railway&logoColor=white&labelColor=0b0b0f" alt="Railway"></a>
+<a href="https://github.com/MHSanaei/3x-ui/releases/tag/v2.9.4"><img src="https://img.shields.io/badge/3X--UI-v2.9.4-ef4444?style=for-the-badge&labelColor=0b0b0f" alt="3X-UI"></a>
+<a href="https://github.com/XTLS/Xray-core"><img src="https://img.shields.io/badge/Xray-VLESS%20%C2%B7%20WS%20%C2%B7%20TLS-dc2626?style=for-the-badge&labelColor=0b0b0f" alt="Xray"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-ee3a3a?style=for-the-badge&labelColor=0b0b0f" alt="License"></a>
 
 <br><br>
 

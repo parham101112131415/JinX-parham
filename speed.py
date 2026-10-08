@@ -1,4 +1,4 @@
-"""Parham speed bot: measures the tunnel from the inside and keeps it fast.
+"""parham mahsa speed bot: measures the tunnel from the inside and keeps it fast.
 
   tunnel   - real WebSocket handshake through nginx -> xray (not just "port open")
   direct   - same handshake straight to xray, to tell an nginx problem from an xray problem

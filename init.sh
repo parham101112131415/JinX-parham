@@ -1,5 +1,5 @@
 #!/bin/sh
-# Parham PM init (oneshot): prepare everything before services start.
+# parham mahsa init (oneshot): prepare everything before services start.
 export PYTHONUNBUFFERED=1
 exec 2>&1   # everything to normal log (Railway shows stderr in red)
 ulimit -n "$(ulimit -Hn 2>/dev/null || echo 65535)" 2>/dev/null || ulimit -n 65535 2>/dev/null || true

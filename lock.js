@@ -1,4 +1,4 @@
-/* Parham PM panel add-on: marks the protected inbound with the panel's own lock icon. */
+/* parham mahsa panel add-on: marks the protected inbound with the panel's own lock icon. */
 (function () {
   'use strict';
   var NAMES = ['\uD835\uDDDD\uD835\uDDF6\uD835\uDDFB\uD835\uDDEB \u26A1 \uD835\uDDEB\uD835\uDFF0\uD835\uDDDA', '\uD835\uDDDD\uD835\uDDF6\uD835\uDDFB\uD835\uDDEB PM'];

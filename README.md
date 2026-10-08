@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="header.svg" alt="Parham PM" width="100%">
+<img src="header.svg" alt="parham mahsa" width="100%">
 
 <br>
 
@@ -24,9 +24,9 @@
 
 <img src="divider.svg" width="100%">
 
-## Parham PM چیست؟
+## parham mahsa چیست؟
 
-**Parham PM** نسخه‌ی اختصاصی پنل محبوب **3X-UI** است که از صفر برای **Railway** ساخته شده؛ حاصل **همکاری رسمی پرهام و مهسا**.
+**parham mahsa** نسخه‌ی اختصاصی پنل محبوب **3X-UI** است که از صفر برای **Railway** ساخته شده؛ حاصل **همکاری رسمی پرهام و مهسا**.
 
 فقط فایل‌ها را در گیت‌هاب بگذار و دیپلوی را بزن. پنل، کانفیگ قفل‌شده، ساب‌لینک اختصاصی و **۱۴ ربات نگهبان** خودشان آماده می‌شوند. نه دستوری لازم است، نه سروری، نه تنظیم دستی.
 
@@ -35,7 +35,7 @@
 <img src="divider.svg" width="100%">
 
 <div align="center">
-<img src="features.svg" alt="ویژگی‌های Parham PM" width="100%">
+<img src="features.svg" alt="ویژگی‌های parham mahsa" width="100%">
 </div>
 
 <img src="divider.svg" width="100%">
@@ -249,7 +249,7 @@
 
 <br><br>
 
-<img src="footer.svg" alt="Parham PM" width="100%">
+<img src="footer.svg" alt="parham mahsa" width="100%">
 
 <sub>بر پایه‌ی <a href="https://github.com/MHSanaei/3x-ui">3X-UI</a> و <a href="https://github.com/XTLS/Xray-core">Xray-core</a> · منتشر شده با مجوز GPL-3.0</sub>
 
